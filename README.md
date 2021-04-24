@@ -1,5 +1,4 @@
 # python-internet-connection-checker
-imports urllib and time
-infinite loop (while True:...) but if the user digits 00, the loop will terminate.
-Internet connection test time must be added, I`m currently working on this.
-In a future version, the program will also generate a log file.
+This program will ceck if your connection is active by sending a request to google.com.
+The program has to be set to repeat the action for a certain number of times. It will also generate a log file 
+when it terminates. The log file will contain the current time and the status code of the request
